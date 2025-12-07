@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-hero">
+      <section className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center overflow-hidden bg-gradient-hero pt-8 pb-16">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Gradient orbs */}
@@ -113,7 +113,7 @@ export default function Home() {
 
         {/* Hero content */}
         <motion.div
-          className="container max-w-5xl mx-auto px-4 text-center relative z-10"
+          className="container max-w-5xl mx-auto px-4 text-center relative z-10 -mt-8"
           style={{ opacity, scale }}
         >
           {/* Badge */}
@@ -129,7 +129,7 @@ export default function Home() {
 
           {/* Main headline */}
           <motion.h1
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-bold mb-6 tracking-tight"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-4 tracking-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
@@ -142,7 +142,7 @@ export default function Home() {
 
           {/* Subtitle */}
           <motion.p
-            className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
+            className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
@@ -174,7 +174,7 @@ export default function Home() {
 
           {/* Stats row */}
           <motion.div
-            className="flex flex-wrap justify-center gap-8 md:gap-16 mt-16"
+            className="flex flex-wrap justify-center gap-6 md:gap-12 mt-10"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
