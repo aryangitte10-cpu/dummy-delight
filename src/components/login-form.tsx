@@ -12,7 +12,6 @@ import { Label } from "@/components/ui/label"
 import { VerifyEmailMessage } from "@/components/verify-email-message"
 import Image from "next/image"
 import Link from "next/link"
-import loginImage from "@/assets/welcome-back.jpg"
 
 export function LoginForm({
   className,
@@ -138,7 +137,7 @@ export function LoginForm({
           </form>
           <div className="relative hidden bg-muted md:block overflow-hidden">
             <Image
-              src={loginImage}
+              src="/assets/welcome-back.jpg"
               width={500}
               height={500}
               alt="Sustainability platform community"
