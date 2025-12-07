@@ -1,0 +1,27 @@
+{
+    "title": "asadsadas",
+    "description": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"asasasas\"}]}]}",
+    "location": "as",
+    "categories": [
+        "team-bonding"
+    ],
+    "pricePerSeat": -3,
+    "timeSlots": [
+        {
+            "seats": 33,
+            "startTime": "11:11",
+            "endTime": "12:12",
+            "date": "2025-02-17T18:30:00.000Z"
+        }
+    ],
+    "galleryImages": [
+        "https://di3r9cxs9yt8.cloudfront.net/b394e882-20e1-7038-e0ab-710190a479f3/003a33a8-2e83-47de-8f0d-f0635f734c49.png",
+        "https://di3r9cxs9yt8.cloudfront.net/b394e882-20e1-7038-e0ab-710190a479f3/a14ab1c8-1d9d-42c7-a663-b85d2846fdcf.png",
+        "https://di3r9cxs9yt8.cloudfront.net/b394e882-20e1-7038-e0ab-710190a479f3/437924bf-bb73-4283-a7a2-fd1cdfec584d.png",
+        "https://di3r9cxs9yt8.cloudfront.net/b394e882-20e1-7038-e0ab-710190a479f3/f1d811c3-ec70-4a39-a396-1548f7fb2618.png"
+    ],
+    "coverImage": "https://di3r9cxs9yt8.cloudfront.net/b394e882-20e1-7038-e0ab-710190a479f3/e879d164-5df3-4b13-ab85-5a981de9bc48.png",
+    "status": "published",
+    "coachId": "123",
+    "coachName": "John Doe"
+}
